@@ -14,7 +14,7 @@ const io = socketio(server);
 
 
 
-mongoose.connect(process.env.DB_URI, {
+mongoose.connect(mongodb+srv://deploy:uploaddeploy@aircnc-ezk6n.mongodb.net/test?retryWrites=true&w=majority, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
